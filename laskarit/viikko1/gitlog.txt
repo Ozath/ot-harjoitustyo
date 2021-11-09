@@ -1,0 +1,114 @@
+korkki@melkki:~/ot_viikko1/tiedostoja$ git log --stat | cat
+commit 69e95dfb3971f2025d975dcfbb0cb1586597d764
+Author: Tomi Korkki <ttkorkki2@gmail.com>
+Date:   Tue Nov 9 17:17:58 2021 +0200
+
+    file1.txt poisto ja file2.txt uudelleen nimetty
+
+ tiedostoja/file2.txt                 | 0
+ tiedostoja/{file1.txt => file22.txt} | 0
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+
+commit 7b6002ab4c7cd0d17a46ce70849c6f332ee18c61
+Author: Tomi Korkki <ttkorkki2@gmail.com>
+Date:   Tue Nov 9 17:14:41 2021 +0200
+
+    lisätty tiedostot file?.txt
+
+ tiedostoja/file1.txt | 0
+ tiedostoja/file2.txt | 0
+ tiedostoja/file3.txt | 0
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+
+commit 7c780c043ef74bc9a0f518d71278d2cdac323145
+Author: Tomi Korkki <ttkorkki2@gmail.com>
+Date:   Tue Nov 9 17:10:10 2021 +0200
+
+    git add -p harjoittelu
+
+ eka.txt    | 6 ++----
+ kolmas.txt | 2 +-
+ 2 files changed, 3 insertions(+), 5 deletions(-)
+
+commit 761c4c9fff8fc1fde6ef9c8d7a987c8aa0ce8110
+Author: Tomi Korkki <ttkorkki2@gmail.com>
+Date:   Tue Nov 9 17:08:16 2021 +0200
+
+    tiedosto.txt uudelleen nimetty eka.txt
+
+ tiedosto.txt => eka.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit ac277f5ea8ecc300f586d8e59747c991ec2a1cb3
+Author: Tomi Korkki <ttkorkki2@gmail.com>
+Date:   Tue Nov 9 17:06:48 2021 +0200
+
+    poistettu toinen.txt
+
+ toinen.txt | 1 -
+ 1 file changed, 1 deletion(-)
+
+commit 8df463014ff2cb41825ae913bc09c972b2346f7f
+Author: Tomi Korkki <ttkorkki2@gmail.com>
+Date:   Tue Nov 9 17:05:27 2021 +0200
+
+    poisto tekstiä ja lisää tekstiä
+
+ tiedosto.txt | 46 +++++++++++++++++++++++++++++++++++++++++++---
+ 1 file changed, 43 insertions(+), 3 deletions(-)
+
+commit e643cc13d626488da9287b64eb8a61ec7a1b5732
+Author: Tomi Korkki <ttkorkki2@gmail.com>
+Date:   Tue Nov 9 17:04:03 2021 +0200
+
+    lisää tiedostoon paljon tekstiä
+
+ tiedosto.txt | 26 +++++++++++++++++++++++++-
+ 1 file changed, 25 insertions(+), 1 deletion(-)
+
+commit ab1d3f2b4fad96dbbba82618119fcd2c968e53aa
+Author: Tomi Korkki <ttkorkki2@gmail.com>
+Date:   Tue Nov 9 16:48:00 2021 +0200
+
+    jokin_tiedosto lisätty
+
+ stuff/jokin_tiedosto.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit bb666bf01a081e5a472f259bfc3f41ca3944054f
+Author: Tomi Korkki <ttkorkki2@gmail.com>
+Date:   Tue Nov 9 16:46:37 2021 +0200
+
+    tiedostoja toinen ja kolmas muunnettu
+
+ kolmas.txt | 1 +
+ toinen.txt | 1 +
+ 2 files changed, 2 insertions(+)
+
+commit ae0438074fdbe300336b028bd0f876412e3a871d
+Author: Tomi Korkki <ttkorkki2@gmail.com>
+Date:   Tue Nov 9 16:45:37 2021 +0200
+
+    kolmas tiedosto lisätty
+
+ kolmas.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit e653d802668687c02984d77105107d081357c23f
+Author: Tomi Korkki <ttkorkki2@gmail.com>
+Date:   Tue Nov 9 16:28:18 2021 +0200
+
+    muutos ja lisäys
+
+ tiedosto.txt | 1 +
+ toinen.txt   | 0
+ 2 files changed, 1 insertion(+)
+
+commit 4089ad6aa62462afa8f768a5660684acf7a59ed7
+Author: Tomi Korkki <ttkorkki2@gmail.com>
+Date:   Tue Nov 9 16:26:11 2021 +0200
+
+    tiedosto.txt luotu
+
+ tiedosto.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
