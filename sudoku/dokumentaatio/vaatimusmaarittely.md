@@ -17,8 +17,8 @@ The user interface for the applciation will comprise of one GUI window that will
 - Menu items that enable the user to interact with the application. 
   - The menu items should probably have hotkeys. 
 - Possibly make the games UI mostly usable by a mouse.
-  - Scrolldown bar for numbers inserted into cells.
-  - 
+  - Scrolling menu for numbers inserted into cells.
+  
 #### Gameboard
 
 - The sudoku grid will have initial values that can not be altered.
