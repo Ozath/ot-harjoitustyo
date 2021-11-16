@@ -12,21 +12,26 @@ The user interface for the applciation will comprise of one GUI window that will
 
 ### Functionality
 
+This is a preliminary outline of features and ideas, which may be subject to change.
+
 #### Overlay
  
 - Menu items that enable the user to interact with the application. 
   - The menu items should probably have hotkeys. 
+  - Perhaps implement purely as button functionality.
 - Possibly make the games UI mostly usable by a mouse.
   - Scrolling menu for numbers inserted into cells.
   
 #### Gameboard
 
-- The sudoku grid will have initial values that can not be altered.
+- The sudoku grids initial values can not be altered.
 - The user can select a vacant cell and insert a number value in the range (1-9).
+  - The user can modify these values at any time.
+  - When the last cell is filled the game will inform if success was achieved. 
 - The user can select an initial sudoku grid to solve.
   - Initially use pre-built grids with rated difficulty from external sources (saved locally).
   - The grids difficulty level should be selectable by the user.
-- The user can save his current progress and resume the game at a later time.
+- The user can save his current progress and resume the game at a later time. 
 
 ### Further development ideas
 
