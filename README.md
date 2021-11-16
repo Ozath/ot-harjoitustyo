@@ -18,4 +18,4 @@
 
 ### Dokumentaatio
 
-[Määrittelydokumentti]()
+[Määrittelydokumentti](https://github.com/Ozath/ot-harjoitustyo/blob/master/sudoku/dokumentaatio/vaatimusmaarittely.md)
