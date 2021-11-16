@@ -1,5 +1,9 @@
 ## Ohjelmistotekniikka, harjoitustyö (syksy 2021)
 
+### Projekti
+
+[sudoku](https://github.com/Ozath/ot-harjoitustyo/tree/master/sudoku)
+
 ### Tehtävät
 
 #### Viikko 1
