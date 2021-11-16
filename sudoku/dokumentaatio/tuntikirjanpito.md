@@ -4,4 +4,4 @@
 | :-----:|:-----| :-----|
 | 15.11. | 2    | pygame kirjastoon tutustuminen |
 | 16.11. | 2    |  määrittelydokumentti |
-| tuntia yht. | 4    | | 
+| yht. | 4 t | | 
