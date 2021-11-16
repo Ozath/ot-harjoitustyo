@@ -1,11 +1,11 @@
-## Vaatimusmäärittely
+# Vaatimusmäärittely
 
-#### Sovelluksen tarkoitus
+### Sovelluksen tarkoitus
 
-#### Käyttäjät
+Sovellus on sudoku älypeli jota käyttäjä voi pelata.
 
-#### Käyttöliittymäluonnos
+### Käyttöliittymäluonnos
 
-#### Perusversion tarjoama toiminnallisuus
+### Perusversion tarjoama toiminnallisuus
 
-#### Jatkokehitysideoita
+### Jatkokehitysideoita
