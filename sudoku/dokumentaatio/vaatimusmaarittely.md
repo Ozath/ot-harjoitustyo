@@ -12,7 +12,8 @@ The user interface for the applciation will comprise of one GUI window that will
 
 ### Functionality
 
-- Menu items that enable the user to interact with the application. 
+- Try to make the games UI entirely usable by a mouse.
+- If required then add menu items that enable the user to interact with the application. 
   - The menu items should probably have hotkeys. 
 - The sudoku grid will have initial values that can not be altered.
 - The user can select a vacant cell and insert a number value in the range (1-9).
