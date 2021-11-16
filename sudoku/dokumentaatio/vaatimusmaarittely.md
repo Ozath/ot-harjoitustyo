@@ -1,4 +1,4 @@
-# Vaatimusmäärittely
+# Specification of requirements
 
 ### Purpose of the application
 
