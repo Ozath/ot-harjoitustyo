@@ -5,8 +5,8 @@ Sudoku on älypeli, joka koostuu 9x9-ruudukosta, jossa ruutuihin on jaettu valmi
 ## Dokumentaatio
 
 <!-- -Käyttöohje -->
--[Vaatimusmäärittely](https://github.com/Ozath/ot-harjoitustyo/blob/master/sudoku/dokumentaatio/vaatimusmaarittely.md)
+- [Vaatimusmäärittely](https://github.com/Ozath/ot-harjoitustyo/blob/master/sudoku/dokumentaatio/vaatimusmaarittely.md)
 
 <!-- -Arkkitehtuurikuvaus -->
 <!-- -Testausdokumentti -->
--[Tuntikirjanpito](https://github.com/Ozath/ot-harjoitustyo/blob/master/sudoku/dokumentaatio/tuntikirjanpito.md)
+- [Tuntikirjanpito](https://github.com/Ozath/ot-harjoitustyo/blob/master/sudoku/dokumentaatio/tuntikirjanpito.md)
