@@ -1,4 +1,4 @@
-# Tuntikirjanpito
+# Projektin tuntikirjanpito
 
 | päivä  | aika | tehdyt taskit/toiminnot |
 | :-----:|:-----| :-----|
