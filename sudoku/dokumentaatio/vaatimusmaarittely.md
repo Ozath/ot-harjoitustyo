@@ -44,3 +44,4 @@ This is a preliminary outline of features and ideas, which may be modified.
   - Entering an invalid number into a cell can alert the player immediately.
   - Use highlighting/colors for valid/invalid number placements.
   - A helper option.
+- Auto-solver for game grid using backtracking algorithm.
