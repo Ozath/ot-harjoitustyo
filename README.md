@@ -8,6 +8,8 @@
 
 [Määrittelydokumentti](https://github.com/Ozath/ot-harjoitustyo/blob/master/sudoku/dokumentaatio/vaatimusmaarittely.md)
 
+[Tuntikirjanpito](https://github.com/Ozath/ot-harjoitustyo/blob/master/sudoku/dokumentaatio/tuntikirjanpito.md)
+
 ### Tehtävät
 
 #### Viikko 1
