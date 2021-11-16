@@ -5,7 +5,7 @@ Sudoku on älypeli, joka koostuu 9x9-ruudukosta, jossa ruutuihin on jaettu valmi
 <!-- ![](./dokumentaatio/kuvat/sudoku.jpg) -->
 <img src="./dokumentaatio/kuvat/sudoku.jpg" width="600" height="300" />
 
-Kuva on placeholder kunnes pelinkäyttöliittymä on toteutettu. Kuva on google images [hausta](https://depositphotos.com/vector-images/sudoku.html).
+Kuva on placeholder kunnes pelin käyttöliittymä on toteutettu. Kuva on google images [hausta](https://depositphotos.com/vector-images/sudoku.html).
 
 ## Dokumentaatio
 
