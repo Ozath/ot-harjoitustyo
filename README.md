@@ -26,6 +26,6 @@
 
 [Luokkakaavio.png](https://github.com/Ozath/ot-harjoitustyo/blob/master/laskarit/viikko3/ex1-class-diagram.png)
 
-* [generic.pdf](https://github.com/Ozath/ot-harjoitustyo/blob/master/laskarit/viikko3/ex1-class-diagram-generic.pdf)
-* [specific.pdf](https://github.com/Ozath/ot-harjoitustyo/blob/master/laskarit/viikko3/ex1-class-diagram-specific.pdf)
-* [detailed.pdf](https://github.com/Ozath/ot-harjoitustyo/blob/master/laskarit/viikko3/ex1-class-diagram-detailed.pdf)
+* [generic](https://github.com/Ozath/ot-harjoitustyo/blob/master/laskarit/viikko3/ex1-class-diagram-generic.pdf)
+* [specific](https://github.com/Ozath/ot-harjoitustyo/blob/master/laskarit/viikko3/ex1-class-diagram-specific.pdf)
+* [detailed](https://github.com/Ozath/ot-harjoitustyo/blob/master/laskarit/viikko3/ex1-class-diagram-detailed.pdf)
