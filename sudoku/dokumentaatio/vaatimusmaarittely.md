@@ -46,7 +46,7 @@ This is a preliminary outline of features and ideas, which may be modified.
   - A helper option.
 - Auto-solver for game grid using backtracking algorithm.
 
-### Brainstorming
+### Brainstorming and MVP
 
 Coded an initial MVP sudoku ASCII version for command prompt to fullfil the requirements for given deadline. Will further test
 it to refine functionality and explore better design decisions and needs. Will update this document further in near future.
