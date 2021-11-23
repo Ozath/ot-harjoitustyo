@@ -29,3 +29,5 @@
 [Luokkakaavio tehtävä-2](https://github.com/Ozath/ot-harjoitustyo/blob/master/laskarit/viikko3/ex2-class-diagram.png)
 
 [Sekvenssikaavio tehtävä-3](https://github.com/Ozath/ot-harjoitustyo/blob/master/laskarit/viikko3/ex3-sequence-diagram.png)
+
+[Sekvenssikaavio tehtävä-4](https://github.com/Ozath/ot-harjoitustyo/blob/master/laskarit/viikko3/ex4-sequence-diagram.png)
