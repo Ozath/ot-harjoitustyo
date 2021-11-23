@@ -25,6 +25,7 @@
 #### Viikko 3
 
 [Luokkakaavio](https://github.com/Ozath/ot-harjoitustyo/blob/master/laskarit/viikko3/ex1-class-diagram.png)
--[generic](https://github.com/Ozath/ot-harjoitustyo/blob/master/laskarit/viikko3/ex1-class-diagram-generic.pdf)
--[specific](https://github.com/Ozath/ot-harjoitustyo/blob/master/laskarit/viikko3/ex1-class-diagram-specific.pdf)
--[detailed](https://github.com/Ozath/ot-harjoitustyo/blob/master/laskarit/viikko3/ex1-class-diagram-detailed.pdf)
+
+* [generic](https://github.com/Ozath/ot-harjoitustyo/blob/master/laskarit/viikko3/ex1-class-diagram-generic.pdf)
+* [specific](https://github.com/Ozath/ot-harjoitustyo/blob/master/laskarit/viikko3/ex1-class-diagram-specific.pdf)
+* [detailed](https://github.com/Ozath/ot-harjoitustyo/blob/master/laskarit/viikko3/ex1-class-diagram-detailed.pdf)
