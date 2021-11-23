@@ -45,3 +45,8 @@ This is a preliminary outline of features and ideas, which may be modified.
   - Use highlighting/colors for valid/invalid number placements.
   - A helper option.
 - Auto-solver for game grid using backtracking algorithm.
+
+### Brainstorming
+
+Coded an initial MVP sudoku ASCII version for command prompt to fullfil the requirements for given deadline. Will further test
+it to refine functionality and explore better design decisions and needs. Will update this document further in near future.
