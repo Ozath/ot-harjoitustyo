@@ -10,8 +10,6 @@ My plan is to use python instead of java to implement the project, as I've had t
 
 The user interface for the applciation will comprise of one GUI window that will contain the gameboard, window menu items, and likely some textual components. The below picture is a placeholder for the gameboard. The image on the left being the initial board, with the image on the right being a solved board. The term grid refers to the gameboard and a cell refers to a numeric value in the grid.
 
-<img src="./kuvat/sudoku.jpg" width="600" height="300" />
-
 ### Functionality
 
 This is a preliminary outline of features and ideas, which may be modified.
