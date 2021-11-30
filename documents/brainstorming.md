@@ -41,9 +41,8 @@ Additional refinements and features:
 
 ### Sudoku Solver (src/solver)
 
-Finds a solution to the sudoku grid.
-- Find one solution
-- Find all possible solutions
+Find a solution to the sudoku grid.
+- Find one solution or all possible solution (given puzzle might not be unique).
 
 ### Sudoku Editor
 
