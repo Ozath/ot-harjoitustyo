@@ -13,25 +13,18 @@ be refined into the appropriate project documents as the project progresses. Add
 Code a minimum viable product to demonstrate basic idea and simple functionality of the project. Implement a simple ASCII based sudoku game for console. Has the following functionality:
 
 - Draw ASCII user interface and puzzle grid. :heavy_check_mark:
-
 - Generate a sudoku puzzle grid from a local file. :heavy_check_mark:
-
 - Check sudoku puzzle is valid. :heavy_check_mark: 
-
 - Allow player to make moves and terminate if puzzle is solved. :heavy_check_mark:
-
 - Allow player to reset grid, undo moves, and exit program. :heavy_check_mark:
 
 Additional refinements and features:
 
 - Allow player to save current puzzle progress.
-
   + Implement as automatic functionality on exit if puzzle not solved. Save to [sudoku.txt](https://github.com/Ozath/ot-harjoitustyo/blob/master/data/sudoku.txt) file in [data](https://github.com/Ozath/ot-harjoitustyo/tree/master/data).
-
 - Instead of reading a prebuilt sudoku puzzle from a file, generate a random sudoku puzzle on game start (e.g. (N)ew option).
   + Add some difficulty metric to the grid. This can be based on the amount of initial numbers given.
-  + If Internet connection available download a puzzle from [https://sugoku.herokuapp.com/](https://sugoku.herokuapp.com/).
-
+  + If Internet connection available download a puzzle from [https://sugoku.herokuapp.com/](https://sugoku.herokuapp.com/). This also enables fetching a puzzle based on difficulty level.
 - Prevent player from making a move that breaks the constraints of the puzzle.
 
 ### GUI implementation using pygame library
