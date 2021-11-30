@@ -30,8 +30,17 @@ Additional refinements and features:
 
 - Instead of reading a prebuilt sudoku puzzle from a file, generate a random sudoku puzzle on game start (e.g. (N)ew option).
   + Add some difficulty metric to the grid. This can be based on the amount of initial numbers given.
+  + If Internet connection available download a puzzle from [https://sugoku.herokuapp.com/](https://sugoku.herokuapp.com/).
 
 - Prevent player from making a move that breaks the constraints of the puzzle.
+
+### GUI implementation using pygame library
+
+A general idea for the layout of the UI is as seen at [https://sugoku.herokuapp.com/](https://sugoku.herokuapp.com/). A few notable features to consider that are not implemented in this sudoku game are:
+
+- Prevent player from making moves that are not valid.
+
+- Possibly enable moves only by mouse (add buttons for numbers and undo).
 
 ### Sudoku (src/sudoku)
 
