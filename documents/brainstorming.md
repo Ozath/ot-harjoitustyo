@@ -23,7 +23,7 @@ Additional refinements and features:
 - Allow player to save current puzzle progress.
   + Implement as automatic functionality on exit if puzzle not solved. Save to [sudoku.txt](https://github.com/Ozath/ot-harjoitustyo/blob/master/data/sudoku.txt) file in [data](https://github.com/Ozath/ot-harjoitustyo/tree/master/data).
 - Instead of reading a prebuilt sudoku puzzle from a file, generate a random sudoku puzzle on game start (e.g. (N)ew option).
-  + Add some difficulty metric to the grid. This can be based on the amount of initial numbers given.
+  + Add some difficulty metric to the puzzle. This can be based on the amount of initial numbers given.
   + If Internet connection available download a puzzle from [https://sugoku.herokuapp.com/](https://sugoku.herokuapp.com/). This also enables fetching a puzzle based on difficulty level.
 - Prevent player from making a move that breaks the constraints of the puzzle.
 
