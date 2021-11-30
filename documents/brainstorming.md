@@ -53,6 +53,11 @@ Find a solution to the sudoku grid.
 
 - Add editor functionality so that user can design their own puzzle.
 
+### Sudoku Generator
+
+Without having implemented a generator it is hard to say what the computational time for such will be. But there is no point in generating a puzzle that does not have a unique solution. This will require a bit more research.
+
+
 | Tasks           | Functionality | Time taken | Current Status | Finished | 
 | ---             | ---           | :-:        | :-:            | :-:      |
 | implement MVP | |  5 h  | done | :heavy_check_mark:
