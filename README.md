@@ -8,7 +8,7 @@ Sudoku is a strategic puzzle game that is comprised of a 9x9-grid with numbers b
 ## Documentation
 
 <!-- -Käyttöohje -->
-- [Requirements](https://github.com/Ozath/ot-harjoitustyo/blob/master/sudoku/dokumentaatio/vaatimusmaarittely.md)
+- [Requirements](https://github.com/Ozath/ot-harjoitustyo/blob/master/documents/requirements.md)
 
 <!-- -Arkkitehtuurikuvaus -->
 <!-- -Testausdokumentti -->
