@@ -17,7 +17,7 @@ Sudoku is a strategic puzzle game that is usually comprised of a 9x9-grid with n
 
 ## Installation
 
-You will need to have python, pip, and poetry installed. Unless otherwise stated all command are run from the root directory of the application. If you do not have Internet access in order to generate the sudoku puzzles you will need to install the dokusan package. This is because the program does not currently have a sudoku generator.
+You will need to have python, pip, and poetry installed. Unless otherwise stated all commands are run from the root directory of the application. If you do not have Internet access in order to generate the sudoku puzzles you will need to install the dokusan package. This is because the program does not currently have a sudoku generator.
 
 1. Set dependencies with the command:
 
