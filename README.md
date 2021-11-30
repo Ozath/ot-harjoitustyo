@@ -1,8 +1,8 @@
 ## Sudoku
 
-Sudoku on älypeli, joka koostuu 9x9-ruudukosta, jossa ruutuihin on jaettu valmiiksi numeroita. Pelin tavoite on täyttää nämä tyhjät ruudut hyödyntäen numeroita yhdestä yhdeksään. Rajoite on että jokainen numero saa olla vain kerran jokaisella rivillä (vaakasuoraan), jokaisessa sarakkeessa (pystysuoraan) ja lohkossa (3x3-ruudukossa). Pelin ratkaiseminen ja vaikeustaso on yleisesti helpompaa kun alussa on enemmän numeroita annettu valmiiksi.
+Sudoku is a strategic puzzle game that is comprised of a 9x9-grid with numbers being pre-assigned to some squares. The goal is to fill in the empty squares with numbers ranging from one to nine. The constraint is that each unique number can only appear once in each row (horizontally), in each column (vertically), and in each block (3x3-grid). The relative difficulty of solving the sudoku is generally easier when more initial numbers are given.
 
-<!-- ![](./dokumentaatio/kuvat/sudoku.jpg) -->
+![](./dokumentaatio/kuvat/sudoku.jpg)
 <img src="./documents/images/sudoku.png" width="600" height="300" />
 
 ## Documentation
