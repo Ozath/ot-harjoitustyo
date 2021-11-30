@@ -56,12 +56,3 @@ Find a solution to the sudoku grid.
 ### Sudoku Generator
 
 Without having implemented a generator it is hard to say what the computational time for such will be. But there is no point in generating a puzzle that does not have a unique solution. This will require a bit more research.
-
-
-| Tasks           | Functionality | Time taken | Current Status | Finished | 
-| ---             | ---           | :-:        | :-:            | :-:      |
-| implement MVP | |  5 h  | done | :heavy_check_mark:
-| - test | | |
-| Object Cache   | | > 5 hours  | in progress | [x] item1<br/>[ ] item2
-| Object Cache   | | > 5 hours  | in progress | <ul><li>- [x] item1</li><li>- [ ] item2</li></ul>
-| Object Cache   | | > 5 hours  | in progress | <ul><li>[x] item1</li><li>[ ] item2</li></ul>
