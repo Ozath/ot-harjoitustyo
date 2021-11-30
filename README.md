@@ -62,7 +62,7 @@ A test coverage report can be generated with the command:
 poetry run invoke coverage-report
 ```
 
-A report is generated into the _htmlcov_ directory.
+A report is generated into the **htmlcov** directory.
 
 ### Pylint
 
