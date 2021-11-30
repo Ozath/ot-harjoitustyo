@@ -2,7 +2,8 @@ from invoke import task
 
 @task
 def start(ctx):
-    ctx.run("python3 src/index.py")
+    with ctx.cd("./src"):
+        ctx.run("python3 index.py")
 
 @task
 def test(ctx):
