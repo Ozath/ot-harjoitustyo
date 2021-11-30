@@ -9,5 +9,5 @@ Finds a solution to the sudoku grid.
 
 ### Sudoku Editor
 
-- Currently can do this by edition [sudoku.txt]() file in ./data directory.
+- Currently can do this by edition [sudoku.txt](https://github.com/Ozath/ot-harjoitustyo/blob/master/data/sudoku.txt) file in ./data directory.
 - Add editor functionality so that user can design their own puzzle.
