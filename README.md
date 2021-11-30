@@ -24,7 +24,7 @@ You will need to have python, pip, and poetry installed. Unless otherwise stated
 ```bash
 poetry install
 ```
-2. The dokusan package can be install with the command:
+2. The dokusan package can be installed with the command:
 
 ```bash
 pip install dokusan
