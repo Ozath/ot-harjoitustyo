@@ -15,5 +15,6 @@
 | Tasks           | Functionality | Current Status | Finished | 
 | ---             | ---           | :-:            | :-:      |
 | implement MVP   |               | done           | :heavy_check_mark:
-| refine MVP      |               | in progress    | |
+| refine MVP      | sudoku generator              | in progress    | |
+| | save puzzle state on exit | in progress | |
 | start GUI       |               | in progress    | |
