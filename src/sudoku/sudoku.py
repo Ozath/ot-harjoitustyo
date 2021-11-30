@@ -11,7 +11,7 @@ class Sudoku:
     def resetGrid(self):
         for row in range(1,10):
             for col in range(1,10):
-                self.grid[(row,col)] = '.'
+                self.grid[(row,col)] = '0'
         x = 0
         col = 0
         while x < 81:
@@ -23,7 +23,7 @@ class Sudoku:
     def move(self, col, row, n):
         x = 'ABCDEFGHI'.find(col)
         y = int(row)-1
-        if self.initGrid[x+9*y] != '.':
+        if self.initGrid[x+9*y] != '0':
             return False
         self.grid[(y,x)] = n
         self.moves.append(copy.copy(self.grid))
@@ -39,6 +39,7 @@ class Sudoku:
             self.grid = copy.copy(self.moves[-1])
 
     def display(self):
+        print()
         print('  A B C  D E F  G H I')
         for row in range(9):
           for col in range(9):
@@ -46,10 +47,10 @@ class Sudoku:
                   print(str(row + 1) + ' ', end='')
               print(self.grid[(row,col)] + ' ', end='')
               if col == 2 or col == 5:
-                  print('|', end='')
+                  print(' ', end='')
           print()
           if row == 2 or row == 5:
-              print('  ------+-------+------')
+              print('                      ')
 
     def allNumbers(self, n):
         return sorted(n) == list('123456789')
