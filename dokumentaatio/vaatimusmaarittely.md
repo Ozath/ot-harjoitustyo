@@ -46,7 +46,10 @@ This is a preliminary outline of features and ideas, which may be modified.
   - A helper option.
 - Auto-solver for game grid using backtracking algorithm.
 
-### Brainstorming
+### Brainstorming and MVP
 
 Coded an initial MVP sudoku ASCII version for command prompt to fullfil the requirements for given deadline. Will further test
 it to refine functionality and explore better design decisions and needs. Will update this document further in near future.
+Currently program will initiate and produce a sudoku game grid from a saved file. The player can solve the sudoku. If validly
+solved this ends the game. The player can also reset the grid at any time, backtrack their moves, or quit the program. The game
+was tested to work on melkki(at)cs.helsinki.fi.
