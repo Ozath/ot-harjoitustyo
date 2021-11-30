@@ -25,17 +25,17 @@ You will need to have python, pip, and poetry installed.
 poetry install
 ```
 
-2. Run the application with the command:
-
-```bash
-poetry run invoke start
-```
-
 ## Console commands
 
 ### Running the program
 
 The program can be run with the command:
+
+```bash
+poetry run invoke start
+```
+
+alternatively if poetry is not installed you can run the program with the command:
 
 ```bash
 python index.py
