@@ -21,6 +21,7 @@ Coded an initial MVP sudoku ASCII version for command prompt to fullfil the requ
 Refined MVP slightly. Automatic sudoku generation from [https://sugoku.herokuapp.com/](https://sugoku.herokuapp.com/) website. If  no Internet connection is available the application will instead generate a puzzle using the [dokusan](https://pypi.org/project/dokusan/) module. Option to generate new puzzle at any time. Fixed a minor bug. Still to do: refactoring code and writing unit tests. Implemented a basic GUI with pygame with no functionality other than launching a window and drawing game grid with a sudoku puzzle.
 
 &nbsp;
+## Progress tracker
 
 | Tasks           | Functionality | Current Status | Finished | 
 | ---             | ---           | :-:            | :-:      |
