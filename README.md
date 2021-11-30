@@ -24,7 +24,7 @@ You will need to have python, pip, and poetry installed. Unless otherwise stated
 ```bash
 poetry install
 ```
-2. The dokusan package can be installed with the command:
+2. The **dokusan** package can be installed with the command:
 
 ```bash
 pip install dokusan
@@ -40,7 +40,7 @@ The program can be run with the command:
 poetry run invoke start
 ```
 
-If poetry is not installed you can run the program from the _src_ directory with the command:
+If poetry is not installed you can run the program from the **src** directory with the command:
 
 ```bash
 python index.py
