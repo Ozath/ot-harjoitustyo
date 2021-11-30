@@ -12,6 +12,16 @@
 |        | 2    | design GUI |
 | total  | 22 h | | 
 
+### Week 3
+
+Coded an initial MVP sudoku ASCII version for command prompt to fullfil the requirements for given deadline. Will further test it to refine functionality and explore better design decisions and needs. Will update this document further in near future. Currently program will initiate and produce a sudoku game grid from a saved file. The player can solve the sudoku. If validly solved this ends the game. The player can also reset the grid at any time, backtrack their moves, or quit the program. The game was tested to work on melkki(at)cs.helsinki.fi.
+
+### Week 4
+
+Refined MVP slightly. Automatic sudoku generation from [https://sugoku.herokuapp.com/](https://sugoku.herokuapp.com/) website. If  no Internet connection is available the application will instead generate a puzzle using the [dokusan](https://pypi.org/project/dokusan/) module. Option to generate new puzzle at any time. Fixed a minor bug. Still to do: refactoring code and writing unit tests. Implemented a basic GUI with pygame with no functionality other than launching a window and drawing game grid with a sudoku puzzle.
+
+&nbsp;
+
 | Tasks           | Functionality | Current Status | Finished | 
 | ---             | ---           | :-:            | :-:      |
 | implement MVP   |               | done           | :heavy_check_mark:
