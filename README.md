@@ -17,7 +17,7 @@ Sudoku is a strategic puzzle game that is usually comprised of a 9x9-grid with n
 
 ## Installation
 
-You will need to have python, pip, and poetry installed.
+You will need to have python, pip, and poetry installed. Unless otherwise stated all command are run from the root directory of the application.
 
 1. Set dependencies with the command:
 
@@ -35,7 +35,7 @@ The program can be run with the command:
 poetry run invoke start
 ```
 
-alternatively if poetry is not installed you can run the program with the command:
+If poetry is not installed you can run the program from the _src_ directory with the command:
 
 ```bash
 python index.py
