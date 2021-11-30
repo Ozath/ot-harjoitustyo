@@ -3,6 +3,11 @@
 This is as a temporary document for brainstoring that serves as a placeholder for other not-finalized documents during the development process. Any relevant content will
 be refined into the appropriate project documents as the project progresses. Add ideas here and then process and add them to the documentation.
 
+### The whiteboard of random ideas
+
+- Could store the unsolved and solved sudoku grids locally. This would enable an easy implementation of a hint feature that randomly fills in a square.
+- To ensure that a sudoku puzzle is unique based on the initial values requires to have a sudoku generator implemented. This would really be a seperate feature as it can take some time to generate a grid.
+
 ### MVP
 
 Code a minimum viable product to demonstrate basic idea and simple functionality of the project. Implement a simple ASCII based sudoku game for console. Has the following functionality:
@@ -23,8 +28,8 @@ Additional refinements and features:
 
   + Implement as automatic functionality on exit if puzzle not solved. Save to [sudoku.txt](https://github.com/Ozath/ot-harjoitustyo/blob/master/data/sudoku.txt) file in [data](https://github.com/Ozath/ot-harjoitustyo/tree/master/data).
 
-- Instead of reading a prebuilt sudoku puzzle from a file generate a random sudoku puzzle on game start.
-  + 
+- Instead of reading a prebuilt sudoku puzzle from a file, generate a random sudoku puzzle on game start.
+
 ### Sudoku (src/sudoku)
 
 - Allow player to select difficulty of the sudoku puzzle.
