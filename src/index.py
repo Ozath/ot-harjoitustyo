@@ -3,7 +3,6 @@ from sudoku import Sudoku
 
 def main():
     f = open('../data/sudoku.txt', 'r')
-    print('opened file')
     grid = Sudoku(f.read(81))
     while True:
         grid.display()
