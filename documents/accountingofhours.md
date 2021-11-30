@@ -16,3 +16,4 @@
 | ---             | ---           | :-:            | :-:      |
 | implement MVP   |               | done           | :heavy_check_mark:
 | refine MVP      |               | in progress    | |
+| start GUI       |               | in progress    | |
