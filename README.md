@@ -12,4 +12,4 @@ Sudoku is a strategic puzzle game that is comprised of a 9x9-grid with numbers b
 
 <!-- -Arkkitehtuurikuvaus -->
 <!-- -Testausdokumentti -->
-- [Accounting of hours](https://github.com/Ozath/ot-harjoitustyo/blob/master/sudoku/dokumentaatio/tuntikirjanpito.md)
+- [Accounting of hours](https://github.com/Ozath/ot-harjoitustyo/blob/master/documents/accountingofhours.md)
