@@ -1,4 +1,4 @@
-import requests,sys
+import requests, sys
 from dokusan import generators
 from sudoku.sudoku import Sudoku
 
