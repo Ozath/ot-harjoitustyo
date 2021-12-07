@@ -1,18 +1,18 @@
 import unittest
-from sudoku import Sudoku
+from sudoku.sudoku import Sudoku
 
 class TestSudoku(unittest.TestCase):
 
     def setUp(self):
-        self.sudoku = Sudoku('....14....4....2....8.....5...4..89.4.68973...97..3...52.761..4...942.6.96..8.7.1')
+        self.sudoku = Sudoku('000014000040000200008000005000400890406897300097003000520761004000942060960080701')
 
     def test_number_added_to_empty_cell_succeeds(self):
-        a = self.sudoku.move('A','5',1)
-        self.assertFalse(a)
+        move = self.sudoku.move('A','5',1)
+        self.assertFalse(move)
 
     def test_number_added_to_not_empty_cell_fails(self):
-        a = self.sudoku.move('A','1',1)
-        self.assertTrue(a)
+        move = self.sudoku.move('A','1',1)
+        self.assertTrue(move)
 
 # Code for reference
 #
