@@ -1,3 +1,6 @@
+# Code under refactoring and refinement. Should work. Sidelined due to working on
+# GUI version.
+
 import copy, sys
 
 class Sudoku:
@@ -9,16 +12,16 @@ class Sudoku:
         self.moves = []
 
     def resetGrid(self):
-        for row in range(1,10):
-            for col in range(1,10):
+        for row in range(1,9):
+            for col in range(1,9):
                 self.grid[(row,col)] = '0'
         x = 0
-        col = 0
+        row = 0
         while x < 81:
-            for row in range(9):
+            for col in range(9):
                 self.grid[(row,col)] = self.initGrid[x]
                 x += 1
-            col += 1
+            row += 1
 
     def move(self, col, row, n):
         x = 'ABCDEFGHI'.find(col)
@@ -51,64 +54,6 @@ class Sudoku:
           print()
           if row == 2 or row == 5:
               print(' ')
-    """
-    def display_console(self):
-        if self.checkSolved():
-            print('Congratulations!\nPress (Y) to play another or any other key to exit.')
-            c = input('>>').upper().strip()
-            if c.startswith('Y'):
-                sudoku = Sudoku(io.init())
-                sudoku.display()
-            else:
-                sys.exit()
-        while True:
-            print()
-            print('Enter move (e.g. A1 2), (N)ew, (R)eset, (U)ndo, or (Q)uit.')
-            c = input('>>').upper().strip()
-            if len(c) > 0 and c[0] in ('N', 'R', 'U', 'Q'):
-                break
-            if len(c.split()) == 2:
-                cell, n = c.split()
-                if len(cell) != 2:
-                    print('Invalid cell.')
-                    self.display()
-                    continue
-                col, row = cell
-                if col not in list('ABCDEFGHI'):
-                    print('\nInvalid column.')
-                    self.display()
-                    continue
-                if not row.isdecimal():
-                    print('\nInvalid row.')
-                    self.display()
-                    continue
-                if not n.isdecimal():
-                    print('\nInvalid number.')
-                    self.display()
-                    continue
-                else:
-                    if not (1 <= int(n) <= 9):
-                        print('\nInvalid number.')
-                        self.display()
-                        continue
-                break
-            print('\nInvalid command.')
-            self.display()
-        print()
-        if c.startswith('N'):
-            sudoku = Sudoku(io.init())
-            continue
-        if c.startswith('R'):
-            sudoku.resetGrid()
-            continue
-        if c.startswith('U'):
-            sudoku.undo()
-            continue
-        if c.startswith('Q'):
-            sys.exit()
-        if sudoku.move(col, row, n) == False:
-           print('Not empty cell.')
-    """
 
     def allNumbers(self, n):
         return sorted(n) == list('123456789')

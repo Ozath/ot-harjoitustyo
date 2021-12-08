@@ -1,3 +1,5 @@
+# Refactoring in process.
+
 import sys
 from sudoku.sudoku import Sudoku
 from util.utility import Utility
@@ -7,18 +9,18 @@ url = 'https://sugoku.herokuapp.com/'
 
 def main():
     io = Utility(fname, url)
-    sudoku = Sudoku(io.init())
+    sudoku = Sudoku(io.init_puzzle())
     while True:
-        sudoku.display()
         if sudoku.checkSolved():
             print('Congratulations!\nPress (Y) to play another or any other key to exit.')
             c = input('>>').upper().strip()
             if c.startswith('N'):
-                sudoku = Sudoku(io.new())
+                sudoku = Sudoku(io.new_puzzle())
                 sudoku.display()
             else:
-                sys.exit()
+                sys.exit(1)
         while True:
+            sudoku.display()
             print()
             print('Enter move (e.g. A1 2), (N)ew, (R)eset, (U)ndo, or (Q)uit.')
             c = input('>>').upper().strip()
@@ -28,32 +30,26 @@ def main():
                 cell, n = c.split()
                 if len(cell) != 2:
                     print('Invalid cell.')
-                    sudoku.display()
                     continue
                 col, row = cell
                 if col not in list('ABCDEFGHI'):
                     print('\nInvalid column.')
-                    sudoku.display()
                     continue
                 if not row.isdecimal():
                     print('\nInvalid row.')
-                    sudoku.display()
                     continue
                 if not n.isdecimal():
                     print('\nInvalid number.')
-                    sudoku.display()
                     continue
                 else:
                     if not (1 <= int(n) <= 9):
                         print('\nInvalid number.')
-                        sudoku.display()
                         continue
                 break
             print('\nInvalid command.')
-            sudoku.display()
         print()
         if c.startswith('N'):
-            sudoku = Sudoku(io.new())
+            sudoku = Sudoku(io.new_puzzle())
             continue
         if c.startswith('R'):
             sudoku.resetGrid()
@@ -62,10 +58,10 @@ def main():
             sudoku.undo()
             continue
         if c.startswith('Q'):
-            io.save(sudoku.initGrid, fname)
+            io.save_puzzle(sudoku.initGrid, fname)
             sys.exit()
         if sudoku.move(col, row, n) == False:
-           print('Not empty cell.')
+           print('Not initial empty cell.')
 
 if __name__ == "__main__":
     main()

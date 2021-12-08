@@ -1,3 +1,6 @@
+# Just a demo for pygame window for sudoku game for the given puzzle grid below. 
+# Under development.
+
 import pygame
 
 grid = [[7, 8, 0, 4, 0, 0, 1, 2, 0],
