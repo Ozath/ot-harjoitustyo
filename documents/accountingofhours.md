@@ -10,7 +10,10 @@
 | 29.11. | 1    | update requirements specification |
 | 30.11. | 3    | coding MVP refinement |
 |        | 2    | design GUI |
-| total  | 22 h | | 
+| 5.12.  | 5    | coding MVP |
+| 6.12   | 6    | coded GUI  |
+| 7.12   | 6    | coded GUI  |
+| total  | 39 h | | 
 
 ### Week 3
 
@@ -19,6 +22,10 @@ Coded an initial MVP sudoku ASCII version for command prompt to fullfil the requ
 ### Week 4
 
 Refined MVP slightly. Automatic sudoku puzzle generation from [https://sugoku.herokuapp.com/](https://sugoku.herokuapp.com/) website. If no Internet connection is available the application will instead generate a puzzle using the [dokusan](https://pypi.org/project/dokusan/) module. Option to generate new puzzle at any time. Fixed a minor bug. Still to do: refactoring code and writing unit tests. Implemented a basic GUI with pygame with no functionality other than launching a window and drawing game grid with a sudoku puzzle. Will refine documentation as the overall design becomes more apparent as to what features to implement. ASCII version was tested on melkki and windows. The GUI only on windows.
+
+### Week 5
+
+Refactored MVP code slightly. The utility module is finished, but lacks full tests due to fileIO, etc. Worked more on GUI, with no further release on this project. Further plan is to fully refactor the MVP for final release hopefully by 8.12. with the funcitonality that was planned. The ASCII sudoko application should be fully functional.
 
 &nbsp;
 ## Progress tracker
